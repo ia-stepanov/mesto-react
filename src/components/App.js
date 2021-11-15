@@ -50,14 +50,15 @@ function App() {
         <PopupWithForm
           isOpen={isEditProfilePopupOpen}
           onClose={closeAllPopups}
+          name={'edit'}
           form={'profileData'}
           title={'Редактировать профиль'}
-          name={'edit'}
+          buttonText={'Сохранить'}
           children={(
             <>
-              <input className="popup__input" id="profile_name" name="profile_name" type="text" placeholder="Имя" minlength="2" maxlength="40" required/>
+              <input className="popup__input" id="profile_name" name="profile_name" type="text" placeholder="Имя" minLength="2" maxLength="40" required/>
               <span className="popup__input-error" id="profile_name-error"/>
-              <input className="popup__input" id="profile_description-error" name="profile_description-error" type="text" placeholder="О себе" minlength="2" maxlength="200" required/>
+              <input className="popup__input" id="profile_description-error" name="profile_description-error" type="text" placeholder="О себе" minLength="2" maxLength="200" required/>
               <span className="popup__input-error" id="profile_description-error"/>
             </>
           )}
@@ -66,12 +67,13 @@ function App() {
         <PopupWithForm
           isOpen={isAddPlacePopupOpen}
           onClose={closeAllPopups}
+          name={'add'}
           form={'placeData'}
           title={'Новое место'}
-          name={'add'}
+          buttonText={'Создать'}
           children={(
             <>
-              <input className="popup__input" id="place_name" name="name" type="text" placeholder="Название" minlength="2" maxlength="30" required/>
+              <input className="popup__input" id="place_name" name="name" type="text" placeholder="Название" minLength="2" maxLength="30" required/>
               <span className="popup__input-error" id="place_name-error"/>
               <input className="popup__input" id="place_link" name="link" type="url" placeholder="Ссылка на картинку" required/>
               <span className="popup__input-error" id="place_link-error"/>
@@ -82,9 +84,10 @@ function App() {
         <PopupWithForm
           isOpen={isEditAvatarPopupOpen}
           onClose={closeAllPopups}
+          name={'avatar'}
           form={'placeData'}
           title={'Обновить аватар'}
-          name={'avatar'}
+          buttonText={'Сохранить'}
           children={(
             <>
               <input className="popup__input" id="avatar_link" name="avatar_link" type="url" placeholder="Ссылка на аватар" required/>
