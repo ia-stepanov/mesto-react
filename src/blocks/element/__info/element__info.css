@@ -1,0 +1,8 @@
+.element__info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background: #fff;
+  z-index: 1;
+}

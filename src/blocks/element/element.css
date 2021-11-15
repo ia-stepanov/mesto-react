@@ -1,0 +1,10 @@
+.element {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 282px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 10px;
+  background: linear-gradient(to top, #ccc 0%, #f6f6f6 75%, #fff 100%);
+}
