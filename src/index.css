@@ -27,6 +27,7 @@ body {
 @import url(./blocks/element/element.css);
 @import url(./blocks/element/__image/element__image.css);
 @import url(./blocks/element/__btn-trash/element__btn-trash.css);
+@import url(./blocks/element/__btn-trash/_visible/element__btn-trash_visible.css);
 @import url(./blocks/element/__info/element__info.css);
 @import url(./blocks/element/__caption/element__caption.css);
 @import url(./blocks/element/__like-container/element__like-container.css);
