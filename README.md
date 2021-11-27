@@ -85,7 +85,7 @@
 ## Скриншот:
 <details><summary><b>Развернуть</b></summary>
 
-[![Git](https://user-images.githubusercontent.com/86494748/143663354-f7a10773-c21f-4347-aede-92c69976a679.jpg)](https://ia-stepanov.github.io/mesto-react/)
+[![mesto-react](https://user-images.githubusercontent.com/86494748/143663354-f7a10773-c21f-4347-aede-92c69976a679.jpg)](https://ia-stepanov.github.io/mesto-react/)
 
 </details>
 
