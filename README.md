@@ -1,4 +1,4 @@
-# Место на «React» <img src="https://user-images.githubusercontent.com/86494748/143664099-49cf6a97-81d0-42f4-97ba-c2024feea2c9.gif" width="28px" alt="React"> 
+# Место на «React» <img src="https://user-images.githubusercontent.com/86494748/143664099-49cf6a97-81d0-42f4-97ba-c2024feea2c9.gif" width="28px" height="28px" alt="React"> 
 ### *Учебный проект от [Яндекс.Практикум](https://practicum.yandex.ru/web/)*
 
 ## Описание проекта
